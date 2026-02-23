@@ -3,20 +3,35 @@
 <head>
     <title>Yahya KT</title>
 </head>
+<style>
+.blink-text {
+  font-size: 40px;
+  font-weight: bold;
+  animation: glowBlink 3s infinite;
+}
+
+@keyframes glowBlink {
+  0%   { color: #ff0000; text-shadow: 0 0 10px #ff0000; }
+  25%  { color: #00ffcc; text-shadow: 0 0 10px #00ffcc; }
+  50%  { color: #ffff00; text-shadow: 0 0 10px #ffff00; }
+  75%  { color: #ff00ff; text-shadow: 0 0 10px #ff00ff; }
+  100% { color: #00ff00; text-shadow: 0 0 10px #00ff00; }
+}
+</style>
 <body>
 
 <h1>Yahya KT</h1>
 <h2>About</h2>
 <p>Preparing for theoretical computer science studies.</p>
 
-<h2>Study Areas</h2>
+<h2 class="blink-text">Study Areas</h2>
 <ul>
 <li>Automata Theory</li>
 <li>Discrete Mathematics</li>
 <li>Problem Solving</li>
 </ul>
 
-<h2>Blog</h2>
+<h2 class="blink-text">Blog</h2>
 <ul>
 </ul>
 
